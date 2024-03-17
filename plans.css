@@ -1,0 +1,33 @@
+.header		{
+		 text-align: center;
+		 padding: 20px;
+		 background-color: DodgerBlue;
+		}
+
+ul		{
+		 list-style-type: none;
+  		 margin: 20px;
+  		 padding: 20px;
+		 text-align: center;
+		}
+
+#gif		{
+		 display: flex;
+		 justify-content: center; 
+		}
+
+body 		{
+		 background-color: #7DF9EF;
+		}
+
+.photo		{
+		 border-radius: 8px;
+		 transition: all .2s ease-in-out; 
+		}
+
+.photo:hover 	{
+		  border: 1px solid #777;
+		  transform: scale(2.0); 
+		}
+  		 
+ 

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Second page</title>
+<link rel="stylesheet" type="text/css" href="second.css" />
+</head>
+<body>
+<div class="header">
+<a href="index.html"><h2>Press here to go back to the first page</h2></a>
+</div>
+<h1>Quiz Questions</h1>
+<form name="quiz">
+<b>
+Question 1.
+<br>What do you think about my site?<br></b>
+<input type="radio" name="q1">I don't like<br>
+<input type="radio" name="q1">Nice try<br>
+<input type="radio" name="q1">I like it<br>
+<br>
+<b>
+Question 2.
+<br>Do you think that I did a good job?<br></b>
+<input type="radio" name="q2">Yes<br>
+<input type="radio" name="q2">No<br>
+<input type="radio" name="q2">Maybe<br>
+<br>
+<b>
+Question 3.
+<br>Will I pass the exams?<br></b>
+<input type="radio" name="q3">Yes<br>
+<input type="radio" name="q3">Sure<br>
+<input type="radio" name="q3">Maybe<br>
+<br>
+<b>
+Question 4.
+<br>Grade?<br></b>
+<input type="radio" name="q4">4-6<br>
+<input type="radio" name="q4">7-9<br>
+<input type="radio" name="q4">10<br>
+<br>
+<b>
+Question 5.
+<br>How hard do you think it was this project?<br></b>
+<input type="radio" name="q5">Easy<br>
+<input type="radio" name="q5">Medium<br>
+<input type="radio" name="q5">Hard<br>
+<br>
+<b>
+Question 6.
+<br>Do you think that you improved your skills during this project?<br></b>
+<input type="radio" name="q6">Yes<br>
+<input type="radio" name="q6">No<br>
+<input type="radio" name="q6">Maybe<br>
+<br>
+<b>
+   <div id="image">
+       <div id="close">&times;</div>
+       <img id="gif">
+   </div>
+   
+<input id="check" type="button"value="Submit"onClick="getScore(this.form);">
+<input type="reset" value="Clear">
+</form>
+<script src="second.js"></script>
+</body>
+</html>

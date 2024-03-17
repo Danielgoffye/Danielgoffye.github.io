@@ -1,0 +1,145 @@
+.header        {
+            	padding: 80px;
+            	text-align: center;
+            	background: #1abc9c;
+               }
+
+.header h1     {
+            	font-size: 40px;
+	    	color: red;
+	       }
+
+.navbar        {
+            	overflow: hidden;
+            	background-color: #333;
+               }
+
+.navbar a      {
+            	float: left;
+            	display: block;
+            	color: white;
+            	text-align: center;
+            	padding: 14px;
+            	text-decoration: none;
+	       }
+
+.navbar a:hover{
+	    	background-color: white;
+	    	color: black;
+	       }
+
+.navbar h5     {
+	   	float: right;
+	   	color: white;
+	   	padding-right: 30px;
+	       }
+
+.row	       {	    
+	    	display: flex;
+	       }
+
+.side	       {	    
+	   	flex: 30%;
+	   	background-color: #f1f1f1;
+	   	padding: 20px;
+	   	text-align: center;
+	       }
+
+.main 	       {    
+	   	 flex: 70%;
+	   	 padding: 20px;	
+           	 background-color: white; 
+            
+	       }
+
+.hobby         {
+	   	position: fixed;
+	   	display: none;
+	   	left:0;
+	   	top:0;
+	   	width:100%;
+	   	height:100%;
+	   	z-index:1;
+	   	padding-top:100px;
+	   	background-color:rgba(34, 58, 38, 0.9)
+	      }
+
+.hobby-content{
+	       width: 80%;
+	       margin: auto;
+	       display: block;
+	      }
+
+#hobby1       {
+	   	background-color: grey;
+	   	padding: 20px;
+	   	text-align: center;
+	   	height: 30px;
+	   	width:92%;
+	      }
+
+#hobby1:hover {
+ 	  	background-color: seagreen;
+          	color: black;
+          	cursor: pointer;
+	      }
+
+#hobby2	      {
+	   	background-color: grey;
+	   	padding: 20px;
+	   	text-align: center;
+	   	height: 30px;
+	   	width:92%;
+	      }
+
+#hobby2:hover {
+	   	background-color: seagreen;
+           	color: black;
+           	cursor: pointer;
+	      }
+
+#hobby3	      {
+ 	   	background-color: grey;
+	   	padding: 20px;
+	   	text-align: center;
+	   	height: 30px;
+	   	width:92%;
+	      }
+
+#hobby3:hover {
+	   	background-color: seagreen;
+           	color: black;
+           	cursor: pointer;
+	      }
+
+.close	       {
+	      	position: absolute;
+		top: 15px;
+		right: 35px;
+		color: white;
+		font-size: 40px;
+		font-weight: bold;
+				}
+				
+.close:hover   {
+		 color: white;
+		 cursor: pointer;
+		}
+
+.close:focus	{
+		 color: white;
+		 cursor: pointer;
+		}
+
+.college	{
+		 display:block;
+		 margin: 0 auto;
+		 width: 250px;
+		 text-align:center;
+		}
+
+.bottom		{
+		 padding: 20px;
+		 background-color: #f1f1f1;
+		 text-align: center;
+		}
